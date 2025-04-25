@@ -9,7 +9,8 @@
   display:flex;
   flex-direction: column;
 }
-.central{
+
+.central{ /*배경의 지도 이미지 관련 CSS */
   position: absolute;
   z-index: 1;
   margin-left: 880px;
@@ -18,13 +19,13 @@
 }
 
 
-.central-part1{
+.central-part1{ /*각 카페의 세부 내용이 적힌 부분*/
   display: flex;
   gap: 30px;
   margin-left: 50px;
   align-items: center;
   z-index: 2;
-}
+}/* gap을 통해 이미지와 내용사이 거리 띄우고, z-index 조정하여 배경 이미지와 안겹치게 작성(다른 부분들 동일함)*/
 
 .central-part2{
   display: flex;
@@ -93,11 +94,12 @@
   color: black;
 }
 
-.central-part1 {
+.central-part1 {/*디테일 의 각 카페마다의 div 태그 뒤로 구역을 나눠주는 CSS 다른 구역 및 디테일 페이지 또한 동일*/
   background: radial-gradient(circle at 30% 30%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  padding-left: 0;
   margin-bottom: 30px;
-  margin-left: 0;
+  margin-left:100px;
   border-top: 1px solid rgb(202, 202, 202);
   border-bottom: 1px solid rgb(202, 202, 202);
 }
@@ -105,8 +107,9 @@
 .central-part2 {
   background: radial-gradient(circle at 70% 20%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  padding-right: 0;
   margin-bottom: 30px;
-  margin-right: 0;
+  margin-right: 100px;
   border-top: 1px solid rgb(202, 202, 202);
   border-bottom: 1px solid rgb(202, 202, 202);
 }
@@ -114,8 +117,9 @@
 .central-part3 {
   background: radial-gradient(circle at 50% 50%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  padding-left: 0;
   margin-bottom: 30px;
-  margin-left: 0;
+  margin-left: 100px;
   border-top: 1px solid rgb(202, 202, 202);
   border-bottom: 1px solid rgb(202, 202, 202);
 }
@@ -123,8 +127,9 @@
 .central-part4 {
   background: radial-gradient(circle at 60% 80%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  padding-right: 0;
   margin-bottom: 30px;
-  margin-right: 0;
+  margin-right: 100px;
   border-top: 1px solid rgb(202, 202, 202);
   border-bottom: 1px solid rgb(202, 202, 202);
 }

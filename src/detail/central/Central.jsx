@@ -9,6 +9,7 @@ import centerImg from "../../img/center.png";
 export default function Central() {
     return (
         <div className="central-cafe">
+                {/* 배경에 들어갈 구역별 지도 이미지 */}
             <img src={centerImg} alt="지도" className="central"/>
                 <div className="central-part1">
                     <a href="https://naver.me/5Q3mYIGJ" target="_blank" rel="noopener noreferrer">
@@ -31,14 +32,8 @@ export default function Central() {
                         <p>쿠키와 빵 종류가 다양하고, 넓음</p>
                         <p>#크로플</p>
                     </div>
-                    
                 </div>
-
-            
-            
             <div className="central-part3">
-                
-                
                 <a href="https://naver.me/xeAOhY3e" target="_blank" rel="noopener noreferrer">
                     <img src={centralCafeImg3} alt="카페 이디야커피 이미지" />
                     
@@ -51,10 +46,8 @@ export default function Central() {
             </div>
 
             <div className="central-part4">
-                
                 <a href="https://naver.me/Gcts7ekh" target="_blank" rel="noopener noreferrer">
                     <img src={centralCafeImg4} alt="카페 오프커스 이미지" />
-                    
                 </a>
                 <div className="part-4-detail">
                 <p>오프커스</p>

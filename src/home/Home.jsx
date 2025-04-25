@@ -27,20 +27,20 @@ export default function Home() {
                 <button className="southern-btn" onClick={() => PageMove(navigate, "southern")}>남부권</button>
                 <button className="western-btn" onClick={() => PageMove(navigate, "western")}>서부권</button>
                 </div>
-                {/* 지도 이미지 */}
+                {/* 지도 이미지 홈 화면 지도 클릭 기능 구현을 위한 svg태그 사용 */}
                     <svg viewBox="0 0 953 700" className="busan-svg-map" xmlns="http://www.w3.org/2000/svg">
                     {/* 부산 지도 이미지 */}
                     <image href="src/img/busan-2.png" x="0" y="0" width="953" height="700" />
-                    {/* 중부권 */}
+                    {/* 중부권 (point = 각 이미의 경계선을 좌표로 나타냄) */}
                     <polygon 
                         points="450,228,450,248,440,260,444,272,456,298,454,320,468,338,471,347,453,379,406,398,399,413,403,466,397,488,413,505,423,494,440,484,476,483,517,455,532,449,546,427,566,415,566,362,584,334,599,320,605,300,619,293,619,279,609,268,591,260,583,248,586,235,590,226,593,218,594,210,592,198,586,190,579,183,571,175,563,172,537,186,514,196,478,199"
-                        fill="transparent"
-                        stroke="transparent"
-                        strokeWidth="2"
+                        fill="transparent"/* 내부를 투명하게 (지도가 보이게끔)*/
+                        stroke="transparent"/**외곽선을 가려주는 기능 */
+                        strokeWidth="2"/* 외곽선 두께 설정*/
                         className="region region-central"
                         onMouseEnter={() => setHoverRegion("central")}
                         onMouseLeave={() => setHoverRegion(null)}
-                        onClick={() => PageMove(navigate, "central")}
+                        onClick={() => PageMove(navigate, "central")} /* SVG 태그로 설정한 구역 클릭시 해당 디테일 페이지로 이동하게끔 설정  (이하 동부, 서부, 남부 동일)*/
                     />
                     {/* 동부권 */}
                     <polygon 
@@ -78,7 +78,8 @@ export default function Home() {
                     </svg>
 
                     {hoverRegion === "central" && (
-                        <div className="region-preview-center">
+                        /* 지도의 각 구역에 마우스 올려둘 때 미리 설정한 구역에 맞는 이미지 띄우도록 설정 */
+                        <div className="region-preview-center"> 
                             <img src={centralPoint} alt="중부권 미리보기" />
                         </div>
                         )}

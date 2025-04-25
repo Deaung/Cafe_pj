@@ -11,7 +11,7 @@ export default function Header() {
 
     return(
         <div className="header">
-            {/* 클릭 시 루트로 복귀 */}
+            {/* 클릭 시 루트로 복귀와 이미지 태그를통해 버튼내부에 커피 이미지 추가*/}
             <button onClick={() => PageMove(navigate, "/")}><img src="src\img\header-img.png" alt="coffee icon" className="icon" />
             카페기행</button>
         </div>
