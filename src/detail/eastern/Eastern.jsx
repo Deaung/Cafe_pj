@@ -1,4 +1,3 @@
-
 import "./Eastern.css";
 
 import easternCafeImg1 from "../../img/easternCafe1.jpg";
@@ -11,7 +10,6 @@ export default function Eastern() {
     return (
         <div className="eastern-cafe">
             <img src={eastImg} alt="지도" className="eastern"/>
-
 
             <div className="eastern-part1">
                 <a href="https://naver.me/GWeDhKuX" target="_blank" rel="noopener noreferrer">
@@ -61,10 +59,6 @@ export default function Eastern() {
                     </div>
                     
                 </div>
-
-            
-            
-            {/* <Footer /> */}
         </div>
     );
 }

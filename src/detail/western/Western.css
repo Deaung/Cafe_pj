@@ -25,7 +25,7 @@
   gap: 30px;
   font-family: 'Cafe24Ssurround';
   font-size: 24px;
-  margin-left: 100px;
+  margin-left: 0px;
   align-items: center;
   z-index: 2;
 }
@@ -40,7 +40,7 @@
   font-family: 'Cafe24Ssurround';
   font-size: 24px;
   flex-direction: row-reverse;
-  margin-right: 100px;
+  margin-right: 0px;
   align-items: center;
   z-index: 2;
 }
@@ -53,7 +53,7 @@
   gap: 30px;
   font-family: 'Cafe24Ssurround';
   font-size: 24px;
-  margin-left: 100px;
+  margin-left: 0px;
   align-items: center;
   z-index: 2;
 }
@@ -67,7 +67,7 @@
   font-family: 'Cafe24Ssurround';
   font-size: 24px;
   flex-direction: row-reverse;
-  margin-right: 100px;
+  margin-right: 0px;
   align-items: center;
   z-index: 2;
 }
@@ -79,7 +79,6 @@
   background: radial-gradient(circle at 30% 30%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
   margin-bottom: 30px;
-  /* border-radius: 12px; */
   border-top: 1px solid rgb(202, 202, 202);
   border-bottom: 1px solid rgb(202, 202, 202);;
 }
@@ -88,7 +87,6 @@
   background: radial-gradient(circle at 70% 20%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
   margin-bottom: 30px;
-  /* border-radius: 12px; */
   border-top: 1px solid rgb(202, 202, 202);
   border-bottom: 1px solid rgb(202, 202, 202);;
 }
@@ -97,7 +95,6 @@
   background: radial-gradient(circle at 20% 70%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
   margin-bottom: 30px;
-  /* border-radius: 12px; */
   border-top: 1px solid rgb(202, 202, 202);
   border-bottom: 1px solid rgb(202, 202, 202);;
 }
@@ -106,7 +103,6 @@
   background: radial-gradient(circle at 60% 80%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
   margin-bottom: 30px;
-  /* border-radius: 12px; */
   border-top: 1px solid rgb(202, 202, 202);
   border-bottom: 1px solid rgb(202, 202, 202);;
 }

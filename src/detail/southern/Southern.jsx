@@ -1,4 +1,3 @@
-
 import "./Southern.css";
 
 import southernCafeImg1 from "../../img/southernCafe1.jpg";
@@ -36,8 +35,6 @@ export default function Southern() {
                     
                 </div>
             
-            
-            
                 <div className="southern-part3">
                     
                     <a href="https://naver.me/5FmdGhxe" target="_blank" rel="noopener noreferrer">
@@ -64,9 +61,6 @@ export default function Southern() {
                     
                 </div>
             
-            
-            
-            {/* <Footer /> */}
         </div>
     );
 }

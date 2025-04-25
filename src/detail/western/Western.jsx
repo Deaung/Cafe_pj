@@ -1,5 +1,3 @@
-
-
 import "./Western.css";
 
 import westernCafeImg1 from "../../img/westernCafe1.jpg";

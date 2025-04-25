@@ -12,7 +12,7 @@ export default function Header() {
     return(
         <div className="header">
             {/* 클릭 시 루트로 복귀 */}
-            <button onClick={() => PageMove(navigate, "/")}><img src="src\img\KakaoTalk_20250423_114705813.png" alt="coffee icon" className="icon" />
+            <button onClick={() => PageMove(navigate, "/")}><img src="src\img\header-img.png" alt="coffee icon" className="icon" />
             카페기행</button>
         </div>
     );

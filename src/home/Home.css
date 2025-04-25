@@ -53,7 +53,7 @@ html, body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -5px; /* 글자와의 거리 */
+  bottom: -5px;
   width: 0;
   height: 2px;
   background-color: #333;
@@ -61,7 +61,7 @@ html, body {
 }
 
 .buttons button:hover {
-  font-size: 25px; /* 원하는 만큼 키우기 */
+  font-size: 25px; 
 }
 
 .buttons button:hover::after {
