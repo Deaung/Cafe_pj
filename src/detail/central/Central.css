@@ -97,6 +97,9 @@
 .central-part1 {/*디테일 의 각 카페마다의 div 태그 뒤로 구역을 나눠주는 CSS 다른 구역 및 디테일 페이지 또한 동일*/
   background: radial-gradient(circle at 30% 30%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   padding-left: 0;
   margin-bottom: 30px;
   margin-left:100px;
@@ -107,6 +110,9 @@
 .central-part2 {
   background: radial-gradient(circle at 70% 20%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   padding-right: 0;
   margin-bottom: 30px;
   margin-right: 100px;
@@ -117,6 +123,9 @@
 .central-part3 {
   background: radial-gradient(circle at 50% 50%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   padding-left: 0;
   margin-bottom: 30px;
   margin-left: 100px;
@@ -127,6 +136,9 @@
 .central-part4 {
   background: radial-gradient(circle at 60% 80%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  margin-left: 100px; 
+  width: 88.5%;
+  margin-right: 0;
   padding-right: 0;
   margin-bottom: 30px;
   margin-right: 100px;

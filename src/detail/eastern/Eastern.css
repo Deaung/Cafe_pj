@@ -76,6 +76,9 @@
 .eastern-part1 {
   background: radial-gradient(circle at 30% 30%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   padding-left: 0;
   margin-bottom: 30px;
   margin-left: 100px;
@@ -87,6 +90,9 @@
   background: radial-gradient(circle at 70% 20%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
   padding-right: 0;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   margin-bottom: 30px;
   margin-right: 100px;
   border-top: 1px solid rgb(202, 202, 202);
@@ -97,6 +103,9 @@
   background: radial-gradient(circle at 20% 70%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
   padding-left: 0;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   margin-bottom: 30px;
   margin-left: 100px;
   border-top: 1px solid rgb(202, 202, 202);
@@ -106,6 +115,9 @@
 .eastern-part4 {
   background: radial-gradient(circle at 60% 80%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   padding-right: 0;
   margin-bottom: 30px;
   margin-right: 100px;

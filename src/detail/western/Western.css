@@ -82,6 +82,9 @@
 .western-part1 {
   background: radial-gradient(circle at 30% 30%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   padding-left: 0;
   margin-bottom: 30px;
   margin-left: 100px;
@@ -92,6 +95,9 @@
 .western-part2 {
   background: radial-gradient(circle at 70% 20%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   padding-right: 0;
   margin-bottom: 30px;
   margin-right: 100px;
@@ -102,6 +108,9 @@
 .western-part3 {
   background: radial-gradient(circle at 20% 70%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   padding-left: 0;
   margin-bottom: 30px;
   margin-left: 100px;
@@ -112,6 +121,9 @@
 .western-part4 {
   background: radial-gradient(circle at 60% 80%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
+  margin-left: 100px;
+  width: 88.5%;
+  margin-right: 0;
   padding-right: 0;
   margin-bottom: 30px;
   margin-right: 100px;

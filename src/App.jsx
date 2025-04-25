@@ -15,7 +15,6 @@ function App() {
         <Route path="/" element={<Layout />}>
           {/* 기본 경로(Home) */}
           <Route index element={<Home />} />
-          
           {/* 권역별 상세 */}
           <Route path="central" element={<Central />} />
           <Route path="eastern" element={<Eastern />} />
